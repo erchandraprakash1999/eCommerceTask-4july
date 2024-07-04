@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header className="header  text-left" style="background-color: #D3D3D3;">
+        <div className="container-fluid">
+        <div className="row align-items-center">
+            <div className="col-md-6 text-left mt-2">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><path fill="currentColor" d="m222.37 158.46l-47.11-21.11l-.13-.06a16 16 0 0 0-15.17 1.4a8 8 0 0 0-.75.56L134.87 160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16 16 0 0 0 1.32-15.06v-.12L97.54 33.64a16 16 0 0 0-16.62-9.52A56.26 56.26 0 0 0 32 80c0 79.4 64.6 144 144 144a56.26 56.26 0 0 0 55.88-48.92a16 16 0 0 0-9.51-16.62M176 208A128.14 128.14 0 0 1 48 80a40.2 40.2 0 0 1 34.87-40a.6.6 0 0 0 0 .12l21 47l-20.67 24.74a6 6 0 0 0-.57.77a16 16 0 0 0-1 15.7c9.06 18.53 27.73 37.06 46.46 46.11a16 16 0 0 0 15.75-1.14a8 8 0 0 0 .74-.56L168.89 152l47 21.05h.11A40.21 40.21 0 0 1 176 208"></path></svg>+000 0000 0000</p>
+            </div>
+            <div className="col-md-6 text-md-right">
+            <div className="dropdown d-inline-block">
+                <button style="background-color: rgb(211, 211, 211); color: black;" className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"></path><path fill="currentColor" fill-rule="nonzero" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m1.683 13.95a29 29 0 0 1-3.366 0c.136.786.309 1.494.51 2.098c.252.756.53 1.296.79 1.626c.088.11.223.326.385.326c.145-.013.302-.227.38-.326c.26-.33.539-.87.79-1.626a14.4 14.4 0 0 0 .51-2.098Zm5.83-1.195q-.398.171-.833.315c-.852.284-1.848.512-2.94.67a17 17 0 0 1-.67 2.94q-.144.435-.315.833a8.02 8.02 0 0 0 4.758-4.758m-15.026 0a8.02 8.02 0 0 0 4.758 4.758a11 11 0 0 1-.315-.833a17 17 0 0 1-.67-2.94a17 17 0 0 1-2.94-.67q-.435-.144-.833-.315m5.585-4.683a25.5 25.5 0 0 0 0 3.856c1.282.097 2.574.097 3.856 0a25.5 25.5 0 0 0 0-3.856a25.5 25.5 0 0 0-3.856 0m5.878.245a29 29 0 0 1 0 3.366a14.4 14.4 0 0 0 2.098-.51c.756-.252 1.296-.53 1.626-.79c.11-.087.326-.224.326-.385c-.013-.145-.227-.302-.326-.38c-.33-.26-.87-.539-1.626-.79a14.4 14.4 0 0 0-2.098-.51Zm-7.9 0c-.786.136-1.493.309-2.098.51c-.756.252-1.295.53-1.626.79c-.24.19-.312.333-.323.368c-.045.15.23.323.323.397c.33.26.87.539 1.626.79c.605.202 1.312.375 2.098.51a28 28 0 0 1 0-3.364Zm1.195-5.83a8.02 8.02 0 0 0-4.758 4.758q.398-.171.833-.315a17 17 0 0 1 2.94-.67c.158-1.092.386-2.088.67-2.94q.144-.435.315-.833m5.51 0q.171.399.315.833c.284.852.512 1.848.67 2.94c1.092.158 2.088.386 2.94.67q.435.144.833.315a8.02 8.02 0 0 0-4.758-4.758M12 4c-.139 0-.312.237-.382.326c-.26.33-.539.87-.79 1.626a14.4 14.4 0 0 0-.51 2.098a28 28 0 0 1 3.364 0a14.4 14.4 0 0 0-.51-2.098c-.251-.756-.53-1.295-.79-1.626C12.312 4.236 12.14 4 12 4"></path></g></svg>English
+                </button>
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a className="dropdown-item" href="#">language 1</a></li>
+                  <li><a className="dropdown-item" href="#">language 2</a></li>
+                  <li><a className="dropdown-item" href="#">language 3</a></li>
+                </ul>
+                <div className="d-inline-block ms-3">
+                    <a href="#" style="text-decoration: none; color: black;"> Sing in / Register</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</header>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</html>
