@@ -1,9 +1,17 @@
 import React from 'react';
 import {NavLink} from "react-router-dom"
 
+
 const Header = () => {
-    return (
-        <>
+    return  (
+      <>
+        <style>
+          {`
+            .active {
+              color: red;
+            }
+          `}
+        </style>
               <header
         className="header text-left"
         style={{ backgroundColor: "#D3D3D3", marginBottom: "0px" }}
@@ -65,7 +73,7 @@ const Header = () => {
 
         <nav className="navbar navbar-expand-md bg-light" id="navbar">
           <a
-            href=""
+          href='#'
             className="navbar-brand text-dark ml-5"
             style={{ fontSize: "x-large", fontWeight: "bolder" }}
           >
@@ -80,9 +88,9 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="menu">
             <ul className="navbar-nav " style={{ marginRight: "8%" }}>
               <li className="nav-item text-dark">
-                <a href="#" className="nav-link ml-3 ">
+                <NavLink to="/" className="nav-link ml-3 ">
                   Home
-                </a>
+                </NavLink>
               </li>
 
               <li className="nav-item text-dark ">
