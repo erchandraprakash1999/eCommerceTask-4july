@@ -14,7 +14,7 @@ const Folder = () => {
       <section className="text-center p-4" style={{backgroundColor: ""}}>
         {/* Left */}
         <div className='mb-3'>
-          <span className="h1 text-dark text-center ">Faster. Easier. Free
+          <span className="h1 text-dark text-center  ">Faster. Easier. Free
           Download the Application Now</span>
         </div>
         {/* Left */}

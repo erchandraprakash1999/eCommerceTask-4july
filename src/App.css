@@ -2,4 +2,9 @@
     .btn-responsive {
       font-size: 12px; /* Adjust the font size as needed */
     }
+    .card{
+      margin-top: 50px;
+      
+    }
+   
   }

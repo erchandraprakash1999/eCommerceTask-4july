@@ -1,6 +1,7 @@
 import React from 'react';
 import build from "../assets/g.png";
 import laptop2 from "../assets/laptop22.png";
+import "../App.css";
 const Pagec = () => {
     return (
         <>

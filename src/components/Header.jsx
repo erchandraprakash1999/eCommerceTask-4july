@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom"
-
+import "../App.css";
 
 const Header = () => {
     return  (
@@ -19,7 +19,7 @@ const Header = () => {
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-md-6 text-left mt-2">
-              <p>
+              <p id="og">
                 <i class="fa-solid fa-phone mr-1"></i>
                 +000 0000 0000
               </p>

@@ -23,6 +23,7 @@ import carta from "../assets/cart.avif";
 import cartc from "../assets/cart3.png";
 import cartb from "../assets/images (3).png";
 import build from "../assets/g.png";
+import "../App.css";
 
 
 const Home = () => {
