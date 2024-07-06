@@ -448,103 +448,80 @@ const Home = () => {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-md-3   ">
-              <div
-                class="card"
-                style={{ width: "18rem", borderRadius: "30px" }}
-              >
-                <img
-                  class="card-img-top card-header pl-0 pr-0 pt-0 pb-0 "
-                  src={build}
-                  alt="Card image cap"
-                 
-                />
-                <div class="card-body ">
-                  
-                <button
+          <div className="col-6 col-md-3">
+          <div className="card text-center" style={{ width: "100%", borderRadius: "30px" }}>
+            <img
+              className="card-img-top card-header pl-0 pr-0 pt-0 pb-0"
+              src={build}
+              alt="Card image cap"
+            />
+            <div className="card-body">
+            <button
                 type="button"
-                style={{ width: "100%"}}
-                class="btn btn-outline-primary pt-2 pb-2 text-secondary mt-1"
+                style={{ width: "100%", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
+                className="btn btn-outline-primary pt-1 pb-1 text-secondary mt-1"
               >
-                150,000,0 OMR,Commercial
+                150,000,0 OMR, Commercial
               </button>
-           
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3   ">
-              <div
-                class="card"
-                style={{ width: "18rem", borderRadius: "30px" }}
-              >
-                <img
-                  class="card-img-top card-header pl-0 pr-0 pt-0 pb-0 "
-                  src={build}
-                  alt="Card image cap"
-                 
-                />
-                <div class="card-body ">
-                  
-                <button
-                type="button"
-                style={{ width: "100%"}}
-                class="btn btn-outline-primary pt-2 pb-2 text-secondary"
-              >
-                150,000,0 OMR,Commercial
-              </button>
-           
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3   ">
-              <div
-                class="card"
-                style={{ width: "18rem", borderRadius: "30px" }}
-              >
-                <img
-                  class="card-img-top card-header pl-0 pr-0 pt-0 pb-0"
-                  src={build}
-                  alt="Card image cap"
-                 
-                />
-                <div class="card-body ">
-                  
-                <button
-                type="button"
-                style={{ width: "100%"}}
-                class="btn btn-outline-primary pt-2 pb-2 text-secondary"
-              >
-                150,000,0 OMR,Commercial
-              </button>
-           
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3   ">
-              <div
-                class="card"
-                style={{ width: "18rem", borderRadius: "30px" }}
-              >
-                <img
-                  class="card-img-top card-header pl-0 pr-0 pt-0 pb-0"
-                  src={build}
-                  alt="Card image cap"
-                 
-                />
-                <div class="card-body ">
-                  
-              <button
-                type="button"
-                style={{ width: "100%"}}
-                class="btn btn-outline-primary pt-2 pb-2 text-secondary"
-              >
-                150,000,0 OMR,Commercial
-              </button>
-           
-                </div>
-              </div>
             </div>
           </div>
+        </div>
+        <div className="col-6 col-md-3">
+          <div className="card text-center" style={{ width: "100%", borderRadius: "30px" }}>
+            <img
+              className="card-img-top card-header pl-0 pr-0 pt-0 pb-0"
+              src={build}
+              alt="Card image cap"
+            />
+            <div className="card-body">
+            <button
+                type="button"
+                style={{ width: "100%", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
+                className="btn btn-outline-primary pt-1 pb-1 text-secondary mt-1"
+              >
+                150,000,0 OMR, Commercial
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="col-6 col-md-3">
+          <div className="card text-center" style={{ width: "100%", borderRadius: "30px" }}>
+            <img
+              className="card-img-top card-header pl-0 pr-0 pt-0 pb-0"
+              src={build}
+              alt="Card image cap"
+            />
+            <div className="card-body">
+            <button
+                type="button"
+                style={{ width: "100%", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
+                className="btn btn-outline-primary pt-1 pb-1 text-secondary mt-1"
+              >
+                150,000,0 OMR, Commercial
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="col-6 col-md-3">
+          <div className="card text-center" style={{ width: "100%", borderRadius: "30px" }}>
+            <img
+              className="card-img-top card-header pl-0 pr-0 pt-0 pb-0"
+              src={build}
+              alt="Card image cap"
+            />
+            <div className="card-body">
+            <button
+                type="button"
+                style={{ width: "100%", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}
+                className="btn btn-outline-primary pt-1 pb-1 text-secondary mt-1"
+              >
+                150,000,0 OMR, Commercial
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
         </div>
       </section>
       <hr/>
